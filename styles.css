@@ -1,0 +1,28 @@
+/* CSS reset to create a more consistent look across different browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Use a basic, widely-supported font */
+    line-height: 1.6; /* A basic line-height for readability */
+    color: #333; /* A basic text color that's not too harsh */
+    background-color: rgb(255, 255, 255); /* A basic background color */
+}
+
+/* Add your custom CSS below this line */
+
+h1,nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.orderform{
+    background-color: rgba(27, 192, 165, 0.534);
+}

@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Killer Burger</title>
+<meta charset='utf-8'>
+<meta name='description' content='Description of document content'>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header role='banner'>
+  <h1>Killer Burger</h1>
+  <nav>
+    <ul role='navigation'>
+      <li>
+        <a href='#'>Hamburger</a>
+      </li>
+      <li>
+        <a href='#'>CheeseBurger</a>
+      </li>
+      <li>
+        <a href='#'>Veggie Burger</a>
+      </li>
+      <li>
+        <a href='#'>Bean Burger</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main role='main'>
+  <h2>Burgers</h2>
+  <p>
+   Burgers Offered
+  </p>
+
+ <div class="hamburger">
+    <img src="hamburger.jpg" width='150px' height='100px'  >
+    <p>Hamburger $10.99</p>
+ </div>
+
+ <div>
+    <img src="cheeseburger.jpg" width='150px' height='150px'  >
+    <p>Cheeseburger $10.99</p>
+ </div>
+
+ <div>
+    <img src="Veggieburger.jpg"  width='150px' height='100px' >
+    <p>Veggie Burger $9.99</p>
+ </div>
+
+ <div>
+    <img src="beanburger.jpg" width='150px' height='150px'>
+    <p>Bean Burger $9.99</p>
+ </div>
+<br>
+<!-- Add your restaurant order form below -->
+
+<form role='order_form' class=orderform>
+    <h3> Personal Information
+    </h3>
+   <input type='text' name= 'firstname' placeholder='First Name'>
+   <input type='text' name='lastname' placeholder='Last Name'>
+   <br>
+
+   <input type='text' name='address' placeholder='Street Address'>
+   <input type='text' name='city' placeholder='City'>
+   <input type='text' name='state' placeholder='State'>
+   <input type='text' name='zipcode' placeholder='Zip Code'>
+   <br>
+   <br>
+
+   <h3> Contact Information
+   </h3>
+    <input type-='text' name='phone' placeholder='Phone Number'>
+    <input type='text' name='email' placeholder='Email Address'>
+   <br>
+   <br>
+
+   <h3> Payment Information
+   </h3>
+   <input type-='text' name='cardNum' placeholder='Card Number'>
+   <input type='text' name='expire' placeholder='Expiration Date'>
+   <input type-='text' name='security' placeholder='Three Digit Security Code'>
+   <br>
+   <br>
+   <section class="submission">
+    <input type="submit" value="Submit">
+  </section>
+   
+    
+ </form>
+<!-- Add your restaurant order form above -->
+</main>
+
+<br>
+<aside role='complementary'>
+  <h2>New Menu Items Coming soon!</h2>
+  <img src="curlyfries.jpg" width='150px' height='150'>
+  <p>Curly Fries w/ Beer Cheese</p>
+</aside>
+
+<footer role='contentinfo'>
+  <h4>Locations</h4>
+  <p>Portland, OR</p>
+</footer>
+
+</body>
+</html>
